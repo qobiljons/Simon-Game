@@ -1,0 +1,69 @@
+body {
+  background-color: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif; 
+  color: #e94560;
+}
+
+.simon-game {
+  text-align: center;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #f9dc5c;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 8px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  border-color: #e94560;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#green {
+  background-color: #55d6be;
+}
+
+#red {
+  background-color: #e94560;
+}
+
+#yellow {
+  background-color: #f9dc5c;
+}
+
+#blue {
+  background-color: #9a8c98;
+}
+
+#instruction {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #f9dc5c;
+}
