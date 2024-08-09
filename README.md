@@ -43,3 +43,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This game was inspired by the classic Simon memory game.
 - Special thanks to the jQuery community for making DOM manipulation easier.
 
+## Demo
+
+https://qobiljons.github.io/Simon-Game/
