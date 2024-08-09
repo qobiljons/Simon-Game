@@ -9,6 +9,10 @@ body {
   color: #e94560;
 }
 
+.game-over{
+  background-color: #db0000;
+}
+
 .simon-game {
   text-align: center;
 }
@@ -41,7 +45,7 @@ body {
 }
 
 .btn:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
   border-color: #e94560;
   background-color: rgba(255, 255, 255, 0.2);
 }
